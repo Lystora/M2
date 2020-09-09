@@ -4,5 +4,6 @@ method SumMaxBackwards(s:int, m :int) returns (x:int, y:int)
     ensures x <= m && y <= m
     ensures m == x || m == y
 {
-
+    x := m ;
+    y := s - x ;
 }
