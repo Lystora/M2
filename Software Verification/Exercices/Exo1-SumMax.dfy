@@ -1,5 +1,5 @@
 method SumMax(x: int, y: int) returns (s: int, m: int)
-    ensures s == x+y
+    ensures s == x + y
     ensures x <= m && y <= m
     ensures m == x || m == y
 {
